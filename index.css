@@ -1,0 +1,18 @@
+:root {
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+}
+
+h1 {
+  font-family: "IBM Plex Mono", monospace;
+  color: #22d3de;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+  color: #22d3de;
+  text-decoration: none;
+}
