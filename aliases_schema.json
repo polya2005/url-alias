@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aliases_schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "alias": { "type": "string", "description": "The alias name." },
+      "url": {
+        "type": "string",
+        "description": "The URL that the alias points to."
+      },
+      "qr": {
+        "type": "boolean",
+        "description": "Whether to generate a QR code for the alias."
+      }
+    },
+    "required": ["alias", "url"]
+  }
+}
