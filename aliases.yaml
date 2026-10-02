@@ -1,0 +1,6 @@
+# - alias: example
+#   url: https://example.com
+#   qr: false
+- alias: doorqr
+  url: https://youtu.be/dQw4w9WgXcQ
+  qr: true
